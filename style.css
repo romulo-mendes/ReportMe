@@ -4,41 +4,47 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   min-height: 100%;
 }
 
-body{
- /* background-repeat: no-repeat; */
+body {
+  /* background-repeat: no-repeat; */
   background-image: linear-gradient(white, #ceecef);
 }
 
 a {
- text-decoration: none;
- color: black;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  text-align: center;
 }
 
 .logo {
   font-size: 30px;
   color: #000;
+  margin-right: 10px;
 }
 
-li{
-  list-style: none;
-  font-size: 18px;
+ul {
+  list-style-type: none;
 }
 
-nav{
+li {
+  float: left;
+}
+
+nav {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-between;
   background-color: rgb(235, 238, 241);
   padding: 20px;
-  position: fixed;
 }
 
-nav span{
+nav span {
   font-weight: bold;
   font-size: 34px;
   color: #4eb3de;
@@ -46,48 +52,49 @@ nav span{
 
 
 
-.menu{
+/* .menu {
   display: flex;
   font-size: 18px;
-}
+} */
 
-.menu li{
+.menu li {
   padding: 6px;
 }
 
-.menu li:hover{
+.menu li:hover {
   background-color: #00b9bd;
   transition: 1s;
   border-radius: 5px;
 }
 
-button{
+button {
   background-color: #4eb3de;
   border: none;
   color: #fff;
   padding: 10px 15px;
+  width: 80px;
   text-decoration: none;
-  display: inline-block;
+  /* display: inline-block; */
   text-align: center;
   margin: 4px;
   cursor: pointer;
   transition: 0.5s;
 }
 
-button:hover{
+button:hover {
   box-shadow: 0 3px 5px 0px #00b9bd;
 }
 
-.home{
-  padding-top: 126px;
+.home {
+  /* padding-top: 126px; */
   display: flex;
   align-items: center;
   background-color: #fff;
-  justify-content:flex-start;
+  justify-content: flex-start;
   flex-direction: column;
-  min-width: 40%;
-  max-width: 50%;
+  min-width: 60%;
+  max-width: 80%;
   margin: auto;
-  height:100%;
+  height: 100%;
   min-height: 500px;
 }
